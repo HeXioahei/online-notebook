@@ -1,0 +1,28 @@
+# 后端
+backend/target/
+backend/.mvn/
+*.class
+*.jar
+*.war
+*.log
+!.mvn/wrapper/maven-wrapper.jar
+
+# 前端
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# 系统
+.DS_Store
+Thumbs.db
+*.tmp
+
+# 环境配置（含敏感信息，不要提交）
+backend/src/main/resources/application.yml
